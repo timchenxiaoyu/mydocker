@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cff50d-3c64-4139-a13a-3d30b7fff4b6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/book-pic.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -622,12 +623,12 @@
       <option name="presentableId" value="Default" />
       <updated>1514963351699</updated>
       <workItem from="1514963353442" duration="28000" />
-      <workItem from="1514963382901" duration="1050000" />
+      <workItem from="1514963382901" duration="1079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1078000" />
+    <option name="totallyTimeSpent" value="1107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
