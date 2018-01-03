@@ -15,7 +15,7 @@ var (
 	DefaultInfoLocation string = "/var/run/mydocker/%s/"
 	ConfigName          string = "config.json"
 	ContainerLogFile    string = "container.log"
-	RootUrl				string = "/root"
+	RootUrl				string = "/home/ubuntu/root"
 	MntUrl				string = "/root/mnt/%s"
 	WriteLayerUrl 		string = "/root/writeLayer/%s"
 )
