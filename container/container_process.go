@@ -16,8 +16,8 @@ var (
 	ConfigName          string = "config.json"
 	ContainerLogFile    string = "container.log"
 	RootUrl				string = "/home/ubuntu/root"
-	MntUrl				string = "/root/mnt/%s"
-	WriteLayerUrl 		string = "/root/writeLayer/%s"
+	MntUrl				string = "/home/ubuntu/root/mnt/%s"
+	WriteLayerUrl 		string = "/home/ubuntu/root/writeLayer/%s"
 )
 
 type ContainerInfo struct {
