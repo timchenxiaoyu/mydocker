@@ -1,0 +1,50 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;mydocker&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../../shareos" />
+      <root url="file://$PROJECT_DIR$/../../../k8s.io" />
+      <root url="file://$PROJECT_DIR$/../../../proxy" />
+      <root url="file://$PROJECT_DIR$/../../../webtest" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../export-log" />
+      <root url="file://$PROJECT_DIR$/../../../kubeadm" />
+      <root url="file://$PROJECT_DIR$/../../../rudder" />
+      <root url="file://$PROJECT_DIR$/../../../workspace" />
+      <root url="file://$PROJECT_DIR$/../../../dev-flows-api-golang" />
+      <root url="file://$PROJECT_DIR$/../../../.idea" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../ktsdb" />
+      <root url="file://$PROJECT_DIR$/../../../api-server" />
+      <root url="file://$PROJECT_DIR$/../../../google.golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../agent" />
+      <root url="file://$PROJECT_DIR$/../../../tenx-proxy" />
+      <root url="file://$PROJECT_DIR$/../../../billing-server" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../../shareos" />
+      <root url="file://$PROJECT_DIR$/../../../k8s.io" />
+      <root url="file://$PROJECT_DIR$/../../../proxy" />
+      <root url="file://$PROJECT_DIR$/../../../webtest" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../export-log" />
+      <root url="file://$PROJECT_DIR$/../../../kubeadm" />
+      <root url="file://$PROJECT_DIR$/../../../rudder" />
+      <root url="file://$PROJECT_DIR$/../../../workspace" />
+      <root url="file://$PROJECT_DIR$/../../../dev-flows-api-golang" />
+      <root url="file://$PROJECT_DIR$/../../../.idea" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../ktsdb" />
+      <root url="file://$PROJECT_DIR$/../../../api-server" />
+      <root url="file://$PROJECT_DIR$/../../../google.golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../agent" />
+      <root url="file://$PROJECT_DIR$/../../../tenx-proxy" />
+      <root url="file://$PROJECT_DIR$/../../../billing-server" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
