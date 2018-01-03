@@ -41,7 +41,7 @@ func CreateReadOnlyLayer(imageName string) error {
 		}
 
 		if _, err := exec.Command("tar", "-xvf", imageUrl, "-C", unTarFolderUrl).CombinedOutput(); err != nil {
-			log.Errorf("Untar dir %s error %v", unTarFolderUrl, err)
+			log.Errorf("Untar images: %v dir %s error %v", imageUrl, unTarFolderUrl, err)
 			return err
 		}
 	}
