@@ -27,7 +27,7 @@ func Run(tty bool, comArray []string, res *subsystems.ResourceConfig, containerN
 		log.Errorf("New parent process error")
 		return
 	}
-	log.Infof("parenet start %v \n")
+	log.Infof("parenet start \n")
 	if err := parent.Start(); err != nil {
 		log.Error(err)
 	}
