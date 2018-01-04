@@ -63,6 +63,7 @@ func setUpMount() {
 }
 
 func pivotRoot(root string) error {
+	log.Infof("pivotRoot : %s \n",root)
 	/**
 	  为了使当前root的老 root 和新 root 不在同一个文件系统下，我们把root重新mount了一次
 	  bind mount是把相同的内容换了一个挂载点的挂载方法
