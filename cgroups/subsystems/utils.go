@@ -6,6 +6,8 @@ import (
 	"os"
 	"path"
 	"bufio"
+
+	log "github.com/Sirupsen/logrus"
 )
 
 
@@ -42,6 +44,7 @@ func GetCgroupPath(subsystem string, cgroupPath string, autoCreate bool) (string
 				return "", fmt.Errorf("error create cgroup %v", err)
 			}
 		}
+		log.Infof("GetCgroupPath %v \n",path.Join(cgroupRoot, cgroupPath))
 		return path.Join(cgroupRoot, cgroupPath), nil
 	} else {
 		return "", fmt.Errorf("cgroup path error %v", err)
