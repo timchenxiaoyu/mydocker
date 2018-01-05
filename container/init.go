@@ -63,7 +63,7 @@ func setUpMount() {
 }
 
 func pivotRoot(root string) error {
-	log.Infof("pivotRoot : %s \n",root)
+
 	/**
 	  为了使当前root的老 root 和新 root 不在同一个文件系统下，我们把root重新mount了一次
 	  bind mount是把相同的内容换了一个挂载点的挂载方法
@@ -78,6 +78,7 @@ func pivotRoot(root string) error {
 	}
 	// pivot_root 到新的rootfs, 现在老的 old_root 是挂载在rootfs/.pivot_root
 	// 挂载点现在依然可以在mount命令中看到
+	log.Infof("pivotRoot  root: %s    pivotDir: %s \n",root,pivotDir)
 	if err := syscall.PivotRoot(root, pivotDir); err != nil {
 		return fmt.Errorf("pivot_root %v", err)
 	}

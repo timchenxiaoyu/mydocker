@@ -85,6 +85,7 @@ func CreateMountPoint(containerName , imageName string) error {
 	tmpImageLocation := RootUrl + "/" + imageName
 	mntURL := fmt.Sprintf(MntUrl, containerName)
 	dirs := "dirs=" + tmpWriteLayer + ":" + tmpImageLocation
+	log.Infof("CreateMountPoint dir :%s mntURL: %s \n",dirs,mntURL)
 	_, err := exec.Command("mount", "-t", "aufs", "-o", dirs, "none", mntURL).CombinedOutput()
 	if err != nil {
 		log.Errorf("Run command for creating mount point failed %v", err)
