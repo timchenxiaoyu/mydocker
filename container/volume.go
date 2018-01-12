@@ -67,6 +67,7 @@ func MountVolume(volumeURLs []string, containerName string) error {
 		log.Infof("Mkdir container dir %s error. %v", containerVolumeURL, err)
 	}
 	dirs := "dirs=" + parentUrl
+	log.Infof("MountVolume dirs :%s  containerVolumeURL :%s \n", dirs, containerVolumeURL)
 	_, err := exec.Command("mount", "-t", "aufs", "-o", dirs, "none", containerVolumeURL).CombinedOutput()
 	if err != nil {
 		log.Errorf("Mount volume failed. %v", err)
